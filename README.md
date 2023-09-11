@@ -52,7 +52,7 @@ help: Display a help message with available commands.
 
 7. To exit the ShellEx program, you can use the exit command or press Ctrl + C.
 
-## my257sh Makefile
+## my257sh - Makefile
 
 ### Description
 This Makefile is used to compile the `shellex.c` program, a custom shell for the CMSC 257 course. It simplifies the process of building the shell executable.
