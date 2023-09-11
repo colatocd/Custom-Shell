@@ -21,19 +21,19 @@ To compile and run ShellEx, you need the following:
 
 2. Navigate to the project directory:
 
-   ```
+   ```shell
    cd shell ex
    ```
 
 3. Compile the ShellEx program:
 
-   ```
+   ```shell
    gcc -o shellex shellex.c -lpthread
    ```
 
 4. Run the ShellEx program:
 
-   ```
+   ```shell
    ./shellex
    ```
 
