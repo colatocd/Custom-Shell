@@ -20,5 +20,30 @@ To compile and run ShellEx, you need the following:
 
 2. Navigate to the project directory:
 
-   ```cd shell ex
    ```
+   cd shell ex
+
+3. Compile the ShellEx program:
+
+   ```
+   gcc -o shellex shellex.c -lpthread
+
+4. Run the ShellEx program:
+
+   ```
+   ./shellex
+
+5. You can use various shell commands and built-in commands, including:
+
+exit: Exit the shell.
+pid: Print the process ID of the shell.
+ppid: Print the parent process ID of the shell.
+cd <path>: Change the current working directory.
+help: Display a help message with available commands.
+
+6. For non-built-in commands, you can use standard shell commands. Refer to the manual pages for more information on specific commands:
+
+   ```
+   man <command>
+
+7. To exit the ShellEx program, you can use the exit command or press Ctrl + C.
