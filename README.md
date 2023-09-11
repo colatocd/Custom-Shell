@@ -15,23 +15,27 @@ To compile and run ShellEx, you need the following:
 ### Usage
 1. Clone the repository to your local machine:
 
-   ```shell
+   ```
    git clone https://github.com/yourusername/shellex.git
+   ```
 
 2. Navigate to the project directory:
 
    ```
    cd shell ex
+   ```
 
 3. Compile the ShellEx program:
 
    ```
    gcc -o shellex shellex.c -lpthread
+   ```
 
 4. Run the ShellEx program:
 
    ```
    ./shellex
+   ```
 
 5. You can use various shell commands and built-in commands, including:
 
@@ -45,5 +49,6 @@ help: Display a help message with available commands.
 
    ```
    man <command>
+   ```
 
 7. To exit the ShellEx program, you can use the exit command or press Ctrl + C.
