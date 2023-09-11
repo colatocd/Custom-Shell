@@ -46,7 +46,7 @@ help: Display a help message with available commands.
 
 6. For non-built-in commands, you can use standard shell commands. Refer to the manual pages for more information on specific commands:
 
-   ```
+   ```shell
    man <command>
    ```
 
