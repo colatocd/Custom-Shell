@@ -21,3 +21,4 @@ To compile and run ShellEx, you need the following:
 2. Navigate to the project directory:
 
    ```cd shell ex
+   ```
