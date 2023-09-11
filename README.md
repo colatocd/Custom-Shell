@@ -38,7 +38,6 @@ To compile and run ShellEx, you need the following:
    ```
 
 5. You can use various shell commands and built-in commands, including:
-
 exit: Exit the shell.  <br />
 pid: Print the process ID of the shell.  <br />
 ppid: Print the parent process ID of the shell.  <br />
