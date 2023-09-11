@@ -157,6 +157,6 @@ To use the csapp.c file, you need:
 6. Run your compiled program to perform the desired system operations.
 
 ### Credits
-Author: Cesar Colato
+This project was created by Cesar Colato
    
    
