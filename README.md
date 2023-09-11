@@ -39,11 +39,11 @@ To compile and run ShellEx, you need the following:
 
 5. You can use various shell commands and built-in commands, including:
 
-exit: Exit the shell.
-pid: Print the process ID of the shell.
-ppid: Print the parent process ID of the shell.
-cd <path>: Change the current working directory.
-help: Display a help message with available commands.
+exit: Exit the shell.  <br />
+pid: Print the process ID of the shell.  <br />
+ppid: Print the parent process ID of the shell.  <br />
+cd <path>: Change the current working directory.  <br />
+help: Display a help message with available commands. 
 
 6. For non-built-in commands, you can use standard shell commands. Refer to the manual pages for more information on specific commands:
 
