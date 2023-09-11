@@ -92,4 +92,42 @@ To use this Makefile, you need the following:
    ```shell
    make clean
    ```
+
+## CSAPP - C Server Application Package
+
+### Description
+`csapp.h` is a header file containing various prototypes and definitions useful for network programming in C. It is often used in conjunction with the CS:APP (Computer Systems: A Programmer's Perspective) book and provides wrappers and utilities for system calls, socket programming, threading, and more.
+
+### Requirements
+To use `csapp.h` in your C projects, you need the following:
+
+- A C compiler (e.g., GCC)
+- A Unix-like operating system (e.g., Linux or macOS)
+
+### Usage
+1. Clone the repository containing `csapp.h` to your local machine:
+
+   ```shell
+   git clone https://github.com/yourusername/csapp.git
+   ```
+
+2. Include csapp.h in your C source code by adding the following line at the top of your file:
+   ```shell
+   #include "csapp.h"
+   ```
+
+3. Write and compile your C program using the provided functions and definitions from csapp.h. Refer to the CS:APP book or online documentation for details on how to use these functions effectively.
+
+4. Compile your C program as usual. For example:
+   ```shell
+   gcc -o myprogram myprogram.c -lpthread
+   ```
+
+5. Run your compiled program:
+   ```shell
+   ./myprogram
+   ```
+   
+6. Be sure to read the CS:APP book or the relevant documentation for csapp.h to understand how to use the various functions and utilities it provides effectively.
+   
    
