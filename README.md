@@ -93,7 +93,7 @@ To use this Makefile, you need the following:
    make clean
    ```
 
-## CSAPP - C Server Application Package
+## CSAPP.H - C Server Application Package
 
 ### Description
 `csapp.h` is a header file containing various prototypes and definitions useful for network programming in C. It is often used in conjunction with the CS:APP (Computer Systems: A Programmer's Perspective) book and provides wrappers and utilities for system calls, socket programming, threading, and more.
@@ -129,5 +129,34 @@ To use `csapp.h` in your C projects, you need the following:
    ```
    
 6. Be sure to read the CS:APP book or the relevant documentation for csapp.h to understand how to use the various functions and utilities it provides effectively.
+
+## CSAPP.C 
+
+### Description
+'csapp.c' is a file which includes a collection of functions and wrappers for various system calls and operations commonly used in systems programming. These functions are provided as part of the book "Computer Systems: A Programmer's Perspective" (CS:APP) by Randal E. Bryant and David R. O'Hallaron, 3rd Edition.
+
+### Requirements 
+To use the csapp.c file, you need:
+
+- A C or C++ compiler (e.g., GCC, Clang, Visual C++)
+- A Unix-like operating system (e.g., Linux, macOS, or WSL on Windows)
+
+### Usage
+1. Clone or download this repository to your local machine.
+
+2. Include the csapp.c file in your C/C++ project as needed.
+
+3. Use the functions and wrappers provided in csapp.c to perform various system calls and operations in your programs. Refer to the comments and documentation within the csapp.c file for details on how to use each function.
+
+4. Compile your program with the csapp.c file using your preferred C/C++ compiler. For example, you can use GCC as follows:
+   ```shell
+   gcc -o my_program my_program.c csapp.c -lpthread
+   ```
+   Replace my_program with your program's name and my_program.c with your source code file.
+   
+6. Run your compiled program to perform the desired system operations.
+
+### Credits
+Author: Cesar Colato
    
    
