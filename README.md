@@ -55,7 +55,7 @@ help: Display a help message with available commands.
 ## my257sh - Makefile
 
 ### Description
-This Makefile is used to compile the `shellex.c` program, a custom shell for the CMSC 257 course. It simplifies the process of building the shell executable.
+This Makefile is used to compile the `shellex.c` program, a custom shell. It simplifies the process of building the shell executable.
 
 ### Requirements
 To use this Makefile, you need the following:
